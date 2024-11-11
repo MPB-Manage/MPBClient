@@ -7,7 +7,8 @@
     "build:digitalocean": "npm install --production=false && npm run build && npm ci",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npm run build && npm run preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
