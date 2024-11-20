@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "allowJs": true,
+        "outDir": "./dist"
+    },
+    "exclude": [
+        "**/*.svelte",
+        "postcss.config.cjs"
+    ]
+}
