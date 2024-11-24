@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci",
+    "build:digitalocean": "npm install --production=false --force && npm run build && npm ci",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --host --port $PORT",
