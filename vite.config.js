@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["svelte-navigator", "svelte-forms-lib"]
   },
+  server: {
+    port: process.env.PORT || 8080,
+  }
 })

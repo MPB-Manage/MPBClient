@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:digitalocean": "npm install --legacy-peer-deps && npm run build && npm ci",
+    "build:digitalocean": "npm install --legacy-peer-deps && npm run build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host --port $PORT",
+    "preview": "vite preview --host --port 8080",
     "start": "npm run build && npm run preview"
   },
   "devDependencies": {
